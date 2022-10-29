@@ -19,12 +19,15 @@
     "type": "git",
     "url": "https://github.com/tbSpatula/keyrios"
   },
-  "bugs":{
+  "bugs": {
     "url": "https://github.com/tbSpatula/keyrios/issues"
   },
   "homepage": "https://github.com/tbSpatula/keyrios#readme",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "keyrios": "^1.1.3"
   }
 }
