@@ -1,6 +1,6 @@
 {
   "name": "keyrios",
-  "version": "1.1.2",
+  "version": "1.1.5",
   "description": "Keybind solution for js",
   "main": "./build/Keyrios.js",
   "bin": "./build/Keyrios.js",
@@ -15,6 +15,14 @@
     "build": "tsc"
   },
   "author": "tbspatula",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tbSpatula/keyrios"
+  },
+  "bugs": {
+    "url": "https://github.com/tbSpatula/keyrios/issues"
+  },
+  "homepage": "https://github.com/tbSpatula/keyrios#readme",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.8.4"
