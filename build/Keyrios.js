@@ -6,6 +6,12 @@ function keyCheck(key) {
         throw SyntaxError(key + " is not a valid key");
     return key;
 }
+function keyStringParse(keyString) {
+    var noWhiteSpace = keyString.replace(" ", "");
+    var seperate = noWhiteSpace.split("+");
+    seperate.forEach(function (x) { return keyCheck(x); });
+    return seperate;
+}
 function KeybindMemory(id) {
     var idString = "keyrios";
     // LC = local storage; LCID = local storage id
