@@ -3,6 +3,6 @@ declare const keyrios: {
     exists: (id: string) => boolean;
     get: (id: string) => eventCodeType;
     set: (id: string, key: eventCodeType) => void;
-    flicker: (keybind: eventCodeType, onkeydown: () => {}, onkeyup: () => {}, keybindId: string) => () => void;
+    flicker: (keybind: eventCodeType, onkeydown: () => {}, onkeyup: () => {}, keybindId?: string) => () => void;
 };
 export default keyrios;

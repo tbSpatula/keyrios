@@ -1,6 +1,6 @@
 {
   "name": "keyrios",
-  "version": "1.1.5",
+  "version": "1.1.7",
   "description": "Keybind solution for js",
   "main": "./build/Keyrios.js",
   "bin": "./build/Keyrios.js",
